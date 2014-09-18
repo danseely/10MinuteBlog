@@ -1,0 +1,26 @@
+{
+  "name": "10MinuteBlog",
+  "version": "1.0.0",
+  "description": "A simple blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mudetroit/10MinuteBlog.git"
+  },
+  "author": "Matt LaForest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mudetroit/10MinuteBlog/issues"
+  },
+  "homepage": "https://github.com/mudetroit/10MinuteBlog",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-markdown": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-tap": "^0.1.1",
+    "handlebars": "^2.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blog</title>
+</head>
+<body>
+  <ul>
+      {{#each posts}}
+      <li>
+        {{{ content }}}
+        <a href='{{ path }}'>Discuss...</a>
+      </li>
+      {{/each}}
+  </ul>
+</body>
+</html>
